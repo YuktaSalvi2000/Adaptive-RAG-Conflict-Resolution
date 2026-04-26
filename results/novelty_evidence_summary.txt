@@ -1,0 +1,33 @@
+═════════════════════════════════════════════════════════════════
+  Novelty Evidence Summary
+═════════════════════════════════════════════════════════════════
+  Failure-detected examples:
+    BRIDGE         : 39
+    MISINFORMATION : 34
+    NOISE          : 37
+    AMBIGUOUS      : 0
+
+  Retrieval strategies used:
+    multi-hop           : 39
+    stage2_hybrid       : 14
+    stage2_hybrid+noise_filter+trust_suppression: 24
+    stage2_hybrid+noise_filter: 13
+    stage2_hybrid+trust_suppression: 10
+
+  Aggregation modes used:
+    none                : 53
+    misinformation|noise: 24
+    noise               : 13
+    misinformation      : 10
+
+  This proves:
+    1. Failure detection was run before retrieval.
+    2. Retrieval strategy was logged per query.
+    3. Trust-score components were stored.
+    4. Aggregation mode was stored per query.
+═════════════════════════════════════════════════════════════════
+
+
+═════════════════════════════════════════════════════════════════
+  ✅ Done. 100 examples in 10978.9s (109.79s/query)
+═════════════════════════════════════════════════════════════════
