@@ -1,3 +1,16 @@
+__pycache__/
+*.pyc
+
+data/*.json
+data/*.jsonl
+
+index/*.pkl
+index/*.npy
+index/*.json
+
+results/
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
